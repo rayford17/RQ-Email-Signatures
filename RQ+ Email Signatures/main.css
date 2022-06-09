@@ -1,0 +1,212 @@
+* {
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.main-table {
+    vertical-align: baseline middle;
+    font-size: medium;
+}
+
+.logo-table {
+    vertical-align: baseline middle;
+    font-size: medium;
+}
+
+.cell-1__logo {
+    width: 120; 
+    vertical-align: middle;
+}
+
+.image-container {
+    margin-right: 20px;
+    display: block;
+}
+
+.logo-image { 
+    max-width: 90px;
+}
+
+.cell-2__name {
+    padding-bottom: 2px;
+    vertical-align: middle;
+}
+
+h3 {
+    margin: 0;
+    font-size: 16px;
+    color: #1D272E;
+}
+
+p {
+    margin: 0px;
+    color:#1D272E;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.cell-3__space1 {
+    width: 30px;
+}
+
+div { 
+    width: 30px;
+}
+
+.cell-4__linebreakv {
+    color: #EA8830;
+    width: 1px;
+    border-bottom: none;
+    border-left: 1px solid;
+}
+
+.cell-5__contact {
+    vertical-align: middle;
+}
+
+.contact-table {
+    vertical-align: baseline middle;
+    font-size: medium;
+}
+
+.contact-table__1 tr {
+    height: 25;
+    vertical-align: middle;
+}
+
+.phone-container {
+    width: 30;
+    vertical-align: middle;
+}
+
+.phone-table {
+    vertical-align: baseline middle;
+    font-size: medium;
+}
+
+.phone-table td {
+    vertical-align: bottom;
+}
+
+.phone-icon__container {
+    background-color: #EA8830;
+    width: 11;
+    display: block;
+}
+
+.phone-image {
+   color: #EA8830;
+   width: 13;
+   display: block;
+   background-color: #EA8830; 
+}
+
+.cell-6__phonenumber { 
+    padding-top: 8px;
+    padding-bottom: 8px;
+    color: #1D272E;
+}
+
+.phone-hyperlink { 
+    color: #1D272E;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.email-container { 
+    width: 30;
+    vertical-align: middle;
+}
+
+.email-table {
+    vertical-align: baseline middle;
+    font-size: medium;
+}
+
+.email-table td {
+    vertical-align: bottom;
+}
+
+.email-icon__container { 
+    color:#EA8830;
+    width: 11;
+    display: block;
+    background-color: #EA8830;
+}
+
+.email-image {
+    color:#EA8830;
+    width: 13;
+    display: block;
+    background-color: #EA8830;
+}
+
+.cell-7__email { 
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.email-hyperlink { 
+    color: #1D272E;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.weblink-container {
+    width: 30;
+    vertical-align: middle;
+}
+
+.weblink-table {
+    vertical-align: baseline middle;
+    font-size: medium;
+}
+
+.weblink-table td {
+    vertical-align: bottom;
+}
+
+.weblink-icon__container {
+    color: #EA8830;
+    width: 11;
+    display: block;
+    background-color: #EA8830;
+}
+
+.weblink-image {
+    color:#EA8830;
+    width: 13px;
+    display: block;
+    background-color: #EA8830;
+}
+
+.cell-8__hyperlink {
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.weblink-hyperlink {
+    color: #1D272E;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.footer-main {
+    border: none;
+    margin-top: 20px;
+}
+
+.footer-line {
+    width: 475px;
+    border-top: solid #EA8830 1px;
+}
+
+.footer-main tr {
+    height: 30;
+}
+
+.footer-text {
+    text-align: left;
+    color: #384047;
+    font-size: 13px;
+}
