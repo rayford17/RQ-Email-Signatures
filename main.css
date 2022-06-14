@@ -1,0 +1,285 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-table {
+    vertical-align: baseline middle;
+    font-size: medium;
+}
+
+.contact-table {
+    display: flex;
+}
+
+.logo-table {
+    vertical-align: baseline middle;
+    font-size: medium;
+}
+
+.cell-1__logo {
+    width: 120px; 
+    vertical-align: middle;
+    padding-right: 0px;
+}
+
+.image-container {
+    margin-right: 20px;
+    display: block;
+}
+
+.logo-image { 
+    max-width: 100%;
+}
+
+.cell-2__name {
+    max-width: 150px;
+    padding-bottom: 2px;
+    padding-left: 0px;
+    vertical-align: middle;
+    font-size: 1.6rem;
+}
+
+
+h3 {
+    margin: 0;
+    font-size: 16px;
+    color: #1D272E;
+}
+
+
+p {
+    margin: 0px;
+    color:#1D272E;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.cell-3__space1 {
+    width: 30px;
+}
+
+div {
+    width: 30px;
+}
+
+.cell-4__linebreak {
+    color: #EA8830;
+    width: 1px;
+    border-bottom: none;
+    border-left: 1px solid;
+}
+
+.contact-table {
+    font-size: medium;
+    width: 50px;
+    white-space: nowrap;
+}
+
+.phone-image {
+   color: #EA8830;
+   width: 13;
+   display: block;
+   background-color: #EA8830; 
+}
+
+.cell-6__phonenumber { 
+    padding-top: 4px;
+    padding-bottom: 4px;
+    display: inline-block;
+}
+
+.phone-hyperlink { 
+    color: #1D272E;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.email-icon__container {
+    width: 4px;
+    display: block;
+    padding-top: 2px;
+}
+
+.email-image {
+    color: #EA8830;
+    width: 13;
+    display: block;
+    background-color: #EA8830;
+}
+
+.cell-7__hyperlink { 
+    padding-top: 4px;
+    padding-bottom: 4px;
+    display: inline-block;
+}
+
+.email-hyperlink { 
+    display: inline-block;
+    color: #1D272E;
+    text-decoration: none;
+    font-size: 13px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+.weblink-image {
+    color:#EA8830;
+    width: 13px;
+    display: block;
+    background-color: #EA8830;
+}
+
+.cell-8__hyperlink {
+    padding-bottom: 4px;
+    padding-top: 4px;
+    display: inline-block;
+}
+
+.weblink-hyperlink {
+    color: #1D272E;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.zoomlink-hyperlink {
+    color: #1D272E;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.zoom-image {
+    color: #EA8830;
+    width: 13px;
+    display: block;
+}
+
+.cell-9__zoomlink{
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+.footer-main {
+    border: none;
+    margin-top: 20px;
+}
+
+.footer-line {
+    width: 475px;
+    border-top: solid #EA8830 1px;
+}
+
+.footer-main tr {
+    height: 30;
+}
+
+.footer-text {
+    padding-top: 8px;
+    text-align: left;
+    color: #384047;
+    font-size: medium;
+}
+
+@media (max-width: 620px) {
+    .cell-1__logo, .cell-2__name {
+        width: 100% !important;
+        display: block;
+        height: 49px;
+    }
+}
+
+@media (max-width:620px){
+     table, thead, tbody, tr, td {
+        display: block;
+    }
+    
+    a {
+        float: left;
+        padding-left: 12px;
+        padding-bottom: 4px; 
+    }
+
+    .weblink-hyperlink {
+        margin-top: 8px;
+    }
+
+    .phone-hyperlink {
+        margin-top: 4px;
+    }
+
+    .zoomlink-hyperlink {
+        margin-bottom: 4px;
+    }
+
+    img, i {
+        float: left;
+    }
+
+    .email-image, .weblink-image, .phone-image, .zoom-image {
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 620px) {
+        .cell-3__space1, .cell-3__space2 {
+            margin-top: 0px;
+            width: 4px;
+            height: 0px;
+        }
+    }
+
+@media (max-width: 620px) {
+    .cell-4__linebreak {
+        display: block;
+    }
+}
+
+@media (max-width: 620px) {
+    .cell-5__contact:before {
+        display: block;
+        content: "";
+        width: 40%;
+        border-top: 1px solid #EA8830;
+        margin-top: 0px;
+        margin-left: 0px;
+        padding-bottom: 4px;
+        height: 8px;
+    }
+
+    .footer-line {
+        display: none;
+    }
+
+    .footer-main {
+        display: inline-block;
+        content: "";
+        width: 40%;
+        border-top: 1px solid #EA8830;
+        margin-top: 8px;
+    }
+}
+
+@media (max-width: 620px) {
+    .cell-5__contact:after {
+        display: inline-block !important;
+        width: 100% !important;
+        padding: 20px 5px 20px 5px !important;
+    }
+}
+
+@media (max-width: 620px) {
+    .cell-1__logo {
+      padding-right: 0px;  
+      padding-bottom: 40px;
+      width: 50px;
+      height: 50px;
+    }
+    
+}
+
+@media (max-width: 620px) {
+    .image-container {
+        width: 75px;
+        height: 50px;
+    }
+}
